@@ -16,12 +16,10 @@
   - Traditional: **KNN**, **Bernoulli Naive Bayes (BNB)**, **Multinomial Naive Bayes (MNB)**.
   - Deep Learning: **CNN**, **LSTM**, **RNN**, and a **CNN-LSTM ensemble** for capturing local and sequential patterns.
 - **Visualizations**:
-  - **Figure 1: Genre Distribution**: Bar chart showing song frequency across genres (Pop, Rock, Country, Folk).
-    ![Figure 1: Genre Distribution](images/figure-1-genre-distribution.png)
-  - **Figure 3: TF-IDF Word Score**: Multi-panel bar charts of top 10 terms per genre, highlighting genre-specific lexical patterns.
-    ![Figure 3: TF-IDF Word Score](images/tfidf-scores.png)
-  - **Figure 4: Top Word Co-occurrence Heat Map**: Visualizes word co-occurrence frequencies, revealing semantic networks and genre-specific lyrical patterns.
-    ![Figure 4: Top Word Co-occurrence Heat Map](images/word-cooccurrence-heatmap.png)
+  - **Figure 1: TF-IDF Word Score**: Multi-panel bar charts of top 10 terms per genre, highlighting genre-specific lexical patterns.
+    ![Figure 1: TF-IDF Word Score](images/tfidf-scores.png)
+  - **Figure 2: Top Word Co-occurrence Heat Map**: Visualizes word co-occurrence frequencies, revealing semantic networks and genre-specific lyrical patterns.
+    ![Figure 2: Top Word Co-occurrence Heat Map](images/word-cooccurrence-heatmap.png)
 
 ## Results
 - **Best Model**: The **CNN** model achieved the highest accuracy at **63%**, followed by **LSTM** at **60.8%** and the **CNN-LSTM ensemble** at **60%**.
