@@ -1,7 +1,7 @@
-# Music Genre Classification Through Lyrics
+# Classifying Music Genres Through Lyrics: A Machine Learning Approach
 
 ## Overview
-**Music Genre Classification Through Lyrics** is a machine learning project developed by a team from **Arizona State University** to classify music genres based on song lyrics. Using **Natural Language Processing (NLP)** techniques and models like **KNN**, **Naive Bayes**, **CNN**, **LSTM**, **RNN**, and a novel **CNN-LSTM ensemble**, the project analyzes lyrical content to predict genres such as Pop, Rock, Country, and Folk. It leverages embeddings like **GloVe**, **Word2Vec**, and **BERT**, achieving up to **63% accuracy** with the CNN model. The project includes visualizations to explore lyrical patterns and contributes to music information retrieval by highlighting the power of lyrical analysis.
+**Classifying Music Genres Through Lyrics: A Machine Learning Approachs** is a machine learning project developed  to classify music genres based on song lyrics. Using **Natural Language Processing (NLP)** techniques and models like **KNN**, **Naive Bayes**, **CNN**, **LSTM**, **RNN**, and a novel **CNN-LSTM ensemble**, the project analyzes lyrical content to predict genres such as Pop, Rock, Country, and Folk. It leverages embeddings like **GloVe**, **Word2Vec**, and **BERT**, achieving up to **63% accuracy** with the CNN model. The project includes visualizations to explore lyrical patterns and contributes to music information retrieval by highlighting the power of lyrical analysis.
 
 
 ## Features
@@ -53,6 +53,7 @@
    - Ensure **Python 3.8+** is installed.
    - Install required packages listed in `requirements.txt`:
      ```bash
+     cd code
      pip install -r requirements.txt
      ```
 5. **Download NLTK Data**:
