@@ -16,6 +16,8 @@
   - Traditional: **KNN**, **Bernoulli Naive Bayes (BNB)**, **Multinomial Naive Bayes (MNB)**.
   - Deep Learning: **CNN**, **LSTM**, **RNN**, and a **CNN-LSTM ensemble** for capturing local and sequential patterns.
 - **Visualizations**:
+  - **Figure 1: Genre Distribution**: Bar chart showing song frequency across genres (Pop, Rock, Country, Folk).
+    ![Figure 1: Genre Distribution](images/figure-1-genre-distribution.png)
   - **Figure 3: TF-IDF Word Score**: Multi-panel bar charts of top 10 terms per genre, highlighting genre-specific lexical patterns.
     ![Figure 3: TF-IDF Word Score](images/tfidf-scores.png)
   - **Figure 4: Top Word Co-occurrence Heat Map**: Visualizes word co-occurrence frequencies, revealing semantic networks and genre-specific lyrical patterns.
@@ -36,11 +38,11 @@
 ## Installation and Setup
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/shruthic06/Music-Genre-Classification.git
+   git clone https://github.com/shruthic06/Music-Genre-Classification-Through-Lyrics.git
    ```
 2. **Navigate to the Project Directory**:
    ```bash
-   cd Music-Genre-Classification
+   cd Music-Genre-Classification-Through-Lyrics
    ```
 3. **Set Up a Virtual Environment** (recommended):
    ```bash
@@ -52,19 +54,6 @@
    - Install required packages listed in `requirements.txt`:
      ```bash
      pip install -r requirements.txt
-     ```
-   - Example `requirements.txt` content:
-     ```text
-     numpy
-     pandas
-     scikit-learn
-     nltk
-     transformers
-     lightgbm
-     torch
-     matplotlib
-     seaborn
-     imbalanced-learn
      ```
 5. **Download NLTK Data**:
    - Download NLTK resources for preprocessing:
