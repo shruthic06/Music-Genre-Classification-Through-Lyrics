@@ -56,34 +56,10 @@
      cd code
      pip install -r requirements.txt
      ```
-5. **Download NLTK Data**:
-   - Download NLTK resources for preprocessing:
-     ```bash
-     python -m nltk.downloader stopwords snowball_data
-     ```
-6. **Download Pre-trained Models**:
+5. **Download Pre-trained Models**:
    - Download GloVe embeddings (`glove-wiki-gigaword-100`, `glove-twitter-200`) from [Stanford NLP](https://nlp.stanford.edu/projects/glove/).
    - Download Word2Vec (`word2vec-googlenews-300`) from [Google Code Archive](https://code.google.com/archive/p/word2vec/).
    - Place these in a `models/` directory or update paths in the scripts.
-7. **Download the Dataset**:
-   - Obtain the **Spotify Million Songs** dataset from [Kaggle](https://www.kaggle.com/datasets).
-   - Place it in a `data/` directory or update the data path in the scripts.
-8. **Extract Images from the Report**:
-   - Open `Final Report.pdf` in a PDF viewer or editor (e.g., Adobe Acrobat, Preview, or online tools like Smallpdf).
-   - Extract Figures 1, 3, 4, and 9 as PNG images using a screenshot tool or PDF export feature.
-   - Save them as:
-     - `figure-1-genre-distribution.png`
-     - `figure-3-tfidf-scores.png`
-     - `figure-4-word-cooccurrence-heatmap.png`
-     - `figure-9-cnn-results.png`
-   - Place them in the `images/` folder:
-     ```bash
-     mkdir images
-     mv *.png images/
-     git add images/*
-     git commit -m "Add report figures for README"
-     git push origin main
-     ```
 
 ## Usage
 - **Preprocessing**: Run the preprocessing pipeline to clean lyrics (lowercase, remove punctuation, tokenize, remove stop words, stem) and generate a `Pre_Processed_Text` column.
@@ -91,14 +67,6 @@
 - **Model Training**: Train models like **KNN**, **Naive Bayes**, **CNN**, **LSTM**, **RNN**, or **CNN-LSTM ensemble** using provided scripts.
 - **Visualizations**: View extracted figures (e.g., genre distribution, TF-IDF scores, heatmap) to analyze lyrical patterns.
 - **Evaluation**: Review model performance metrics (accuracy, F1-scores) for genres like Pop, Rock, and Country.
-
-## Project Structure
-- `main.py`: Main script for preprocessing, feature extraction, model training, and evaluation.
-- `notebooks/`: Jupyter notebooks for exploratory data analysis and visualizations.
-- `data/`: Directory for the Spotify Million Songs dataset.
-- `models/`: Scripts for training **KNN**, **Naive Bayes**, **CNN**, **LSTM**, **RNN**, and **CNN-LSTM ensemble**.
-- `images/`: Directory for visualization images (e.g., `figure-1-genre-distribution.png`, `figure-4-word-cooccurrence-heatmap.png`).
-- `requirements.txt`: List of required Python packages.
 
 ## Future Improvements
 - **Multimodal Integration**: Combine lyrics with audio features for enhanced accuracy.
