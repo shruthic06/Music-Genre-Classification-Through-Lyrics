@@ -38,11 +38,11 @@
 ## Installation and Setup
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/shruthic06/Music-Genre-Classification.git
+   git clone https://github.com/shruthic06/Music-Genre-Classification-Through-Lyrics.git
    ```
 2. **Navigate to the Project Directory**:
    ```bash
-   cd Music-Genre-Classification
+   cd Music-Genre-Classification-Through-Lyrics
    ```
 3. **Set Up a Virtual Environment** (recommended):
    ```bash
